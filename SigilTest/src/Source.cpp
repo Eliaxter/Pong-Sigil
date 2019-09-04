@@ -28,23 +28,20 @@ const int ballVertices = 100;
 int main(int args, char *argv[])
 {
 	// set up our window and a few resources we need
-	slWindow(screenWidth*3, screenHeight, "Simple SIGIL Example", false);
+	slWindow(screenWidth, screenHeight, "Simple SIGIL Example", false);
 	slSetTextAlign(SL_ALIGN_CENTER);
 
-
-
-
-	player1.x = 20 + 500;
+	player1.x = 20;
 	player1.y = 260;
 	player1.width = 7;
 	player1.height = 100;
 
-	player2.x = 780 + 500;
+	player2.x = 780;
 	player2.y = 260;
 	player2.width = 7;
 	player2.height = 100;
 
-	ballPosition.x = initBallPosX + 500;
+	ballPosition.x = initBallPosX;
 	ballPosition.y = initBallPosY;
 	ballSpeed.x = speedInX;
 	ballSpeed.y = speedInY;
@@ -82,6 +79,13 @@ int main(int args, char *argv[])
 			ballSpeed.x *= -1.0f;
 		}
 
+		if ((ballPosition.x - ballRadius) <= (player2.x + player2.width / 2) &&
+			(ballPosition.x + ballRadius) >= (player2.x - player2.width / 2) &&
+			(ballPosition.y + ballRadius) >= (player2.y - player2.height / 2) &&
+			(ballPosition.y - ballRadius) <= (player2.y + player2.height / 2))
+		{
+			ballSpeed.x *= -1.0f;
+		}
 	
 
 		slSetBackColor(0, 0, 0);
