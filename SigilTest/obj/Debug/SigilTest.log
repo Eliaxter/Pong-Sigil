@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-c:\users\administrador\desktop\sigiltest\src\source.cpp(20): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-c:\users\administrador\desktop\sigiltest\src\source.cpp(21): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
-  LINK : no se encontró C:\Users\Administrador\Desktop\SigilTest\bin\Debug\SigilTest.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
-  SigilTest.vcxproj -> C:\Users\Administrador\Desktop\SigilTest\bin\Debug\SigilTest.exe
+c:\users\administrador\desktop\pong-sigil\sigiltest\src\source.cpp(20): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\src\source.cpp(21): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+  LINK : no se encontró C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+  SigilTest.vcxproj -> C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe

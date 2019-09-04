@@ -65,6 +65,11 @@ int main(int args, char *argv[])
 
 		slCircleFill(ballPosition.x, ballPosition.y, ballRadius, ballVertices);
 
+		if ((ballPosition.x - ballRadius) >= (player1.width/2) && (ballPosition.x - ballRadius) <= (player1.width/2) && (ballPosition.x - ballRadius) >= (player1.height/2) && (ballPosition.x - ballRadius) <= (player1.height/2))
+		{
+			ballSpeed.x *= -1.0f;
+		}
+
 		slSetBackColor(0, 0, 0);
 
 		// smaller subtext
