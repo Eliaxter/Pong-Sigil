@@ -1,2 +1,4 @@
-﻿LINK : error LNK2001: símbolo externo _mainCTRStatus sin resolver
-C:\Users\Administrador\Desktop\SigilTest\bin\Release\SigilTest.exe : fatal error LNK1120: 1 externos sin resolver
+﻿  Generando código
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Generación de código finalizada
+  SigilTest.vcxproj -> C:\Users\Administrador\Desktop\PongSigil\Pong-Sigil\SigilTest\bin\Release\SigilTest.exe
