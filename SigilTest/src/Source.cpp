@@ -73,6 +73,10 @@ void Menu()
 		pointsP1 = 0;
 		pointsP2 = 0;
 	}
+	if (slGetKey(SL_KEY_ESCAPE))
+	{
+		exitGame = true;
+	}
 	slSetForeColor(0.1, 0.9, 0.2, 0.4);
 	slRender();
 }
