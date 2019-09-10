@@ -18,6 +18,8 @@ Rectangle player1;
 Rectangle player2;
 const int screenWidth = 800;
 const int screenHeight = 400;
+const int minScreenWidth = 0;
+const int minscreenHeight = 0;
 const float speedInX = 5.0f;
 const float speedInY = 5.0f;
 const int initBallPosX = 400;
@@ -85,6 +87,15 @@ int main(int args, char *argv[])
 			(ballPosition.y - ballRadius) <= (player2.y + player2.height / 2))
 		{
 			ballSpeed.x *= -1.0f;
+		}
+
+		if (ballPosition.x > screenWidth)
+		{
+			ballPosition.x = initBallPosX;
+		}
+		if (ballPosition.x < minScreenWidth)
+		{
+			ballPosition.x = initBallPosX;
 		}
 	
 
