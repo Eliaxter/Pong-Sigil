@@ -89,6 +89,8 @@ void Menu()
 		player1.y = initialPlayer1PosY;
 		player2.x = initialPlayer2PosX;
 		player2.y = initialPlayer2PosY;
+		ballPosition.x = initBallPosX;
+		ballPosition.y = initBallPosY;
 	}
 	if (slGetKey(SL_KEY_ESCAPE))
 	{
