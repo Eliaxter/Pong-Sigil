@@ -79,7 +79,10 @@ void Menu()
 	{
 		slShouldClose();
 	}
-	slSetForeColor(0.1, 0.9, 0.2, 0.4);
+	//slSetForeColor(0.1, 0.9, 0.2, 0.4);
+	slSetForeColor(0.0, 3.0, 0.0, 1.0);
+	slSetFontSize(20);
+	slText(screenWidth/2, screenHeight / 2, "Presion ESCAPE para salir y ENTER para iniciar ");
 	slRender();
 }
 
@@ -168,6 +171,7 @@ void InitializeGame()
 	ballPosition.y = initBallPosY;
 	ballSpeed.x = speedInX;
 	ballSpeed.y = speedInY;
+	slSetFont(slLoadFont("../Fonts/white_rabbit.ttf"), 24);
 }
 
 void FinalMenu()
