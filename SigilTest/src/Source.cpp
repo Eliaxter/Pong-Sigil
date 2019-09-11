@@ -32,6 +32,14 @@ const int initBallPosX = 400;
 const int initBallPosY = 260;
 const int ballRadius = 20;
 const int ballVertices = 100;
+const int initialPlayer1PosX = 20;
+const int initialPlayer1PosY = 260;
+const int initialPlayer2PosX = 780;
+const int initialPlayer2PosY = 260;
+const int player1Width = 10;
+const int player1Height = 100;
+const int player2Width = 10;
+const int player2Height = 100;
 int pointsP1 = 0;
 int pointsP2 = 0;
 int startPointsP1 = 0;
@@ -77,6 +85,10 @@ void Menu()
 		stateGame = State::Playing;
 		pointsP1 = startPointsP1;
 		pointsP2 = startPointsP2;
+		player1.x = initialPlayer1PosX;
+		player1.y = initialPlayer1PosY;
+		player2.x = initialPlayer2PosX;
+		player2.y = initialPlayer2PosY;
 	}
 	if (slGetKey(SL_KEY_ESCAPE))
 	{
@@ -166,15 +178,15 @@ void InitializeGame()
 	slWindow(screenWidth, screenHeight, "Simple SIGIL Example", false);
 	slSetTextAlign(SL_ALIGN_CENTER);
 
-	player1.x = 20;
-	player1.y = 260;
-	player1.width = 10;
-	player1.height = 100;
+	player1.x = initialPlayer1PosX;
+	player1.y = initialPlayer1PosY;
+	player1.width = player1Width;
+	player1.height = player1Height;
 
-	player2.x = 780;
-	player2.y = 260;
-	player2.width = 10;
-	player2.height = 100;
+	player2.x = initialPlayer2PosX;
+	player2.y = initialPlayer2PosY;
+	player2.width = player2Width;
+	player2.height = player2Height;
 
 	ballPosition.x = initBallPosX;
 	ballPosition.y = initBallPosY;
