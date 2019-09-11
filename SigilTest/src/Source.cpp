@@ -36,6 +36,9 @@ int pointsP1 = 0;
 int pointsP2 = 0;
 int startPointsP1 = 0;
 int startPointsP2 = 0;
+int player1Wins;
+int player2Wins;
+
 int winPoints = 5;
 
 State stateGame = State::StateMenu;
@@ -80,9 +83,13 @@ void Menu()
 		slShouldClose();
 	}
 	//slSetForeColor(0.1, 0.9, 0.2, 0.4);
-	slSetForeColor(0.0, 3.0, 0.0, 1.0);
 	slSetFontSize(20);
-	slText(screenWidth/2, screenHeight / 2, "Presion ESCAPE para salir y ENTER para iniciar ");
+	slSetForeColor(0.0, 3.0, 0.0, 1.0);
+	slText(screenWidth / 2, 300, "Pong Sigil");
+	slSetFontSize(20);
+	slText(screenWidth/2, screenHeight / 2, "Presiona Enter para jugar");
+	slSetFontSize(20);
+	slText(screenWidth / 2, 100, "Presiona Escape para salir");
 	slRender();
 }
 
@@ -131,11 +138,13 @@ void Game()
 		{
 			ballPosition.x = initBallPosX;
 			pointsP1++;
+			player1Wins++;
 		}
 		if (ballPosition.x < minScreenWidth)
 		{
 			ballPosition.x = initBallPosX;
 			pointsP2++;
+			player2Wins++;
 		}
 
 		if (pointsP1 >= winPoints || pointsP2 >= winPoints)
@@ -180,6 +189,18 @@ void FinalMenu()
 	{
 		stateGame = State::StateMenu;
 	}
-	slSetForeColor(0.1, 0.9, 0.2, 0.4);
+	slSetForeColor(0.0, 3.0, 0.0, 1.0);
+	slSetFontSize(20);
+	slText(screenWidth / 2, screenHeight / 2, "Fin del juego, apreta M para vovler al menu ");
+	if (player1Wins > player2Wins)
+	{
+		slSetFontSize(20);
+		slText(screenWidth / 2, 100, "Gana el Player1");
+	}
+	if (player2Wins > player1Wins)
+	{
+		slSetFontSize(20);
+		slText(screenWidth / 2, 100, "Gana el Player2");
+	}
 	slRender();
 }
