@@ -34,7 +34,9 @@ const int ballRadius = 20;
 const int ballVertices = 100;
 int pointsP1 = 0;
 int pointsP2 = 0;
-bool exitGame = false;
+int startPointsP1 = 0;
+int startPointsP2 = 0;
+int winPoints = 5;
 
 State stateGame = State::StateMenu;
 
@@ -70,12 +72,12 @@ void Menu()
 	if (slGetKey(SL_KEY_ENTER))
 	{
 		stateGame = State::Playing;
-		pointsP1 = 0;
-		pointsP2 = 0;
+		pointsP1 = startPointsP1;
+		pointsP2 = startPointsP2;
 	}
 	if (slGetKey(SL_KEY_ESCAPE))
 	{
-		exitGame = true;
+		slShouldClose();
 	}
 	slSetForeColor(0.1, 0.9, 0.2, 0.4);
 	slRender();
@@ -133,7 +135,7 @@ void Game()
 			pointsP2++;
 		}
 
-		if (pointsP1 >= 5 || pointsP2 >= 5)
+		if (pointsP1 >= winPoints || pointsP2 >= winPoints)
 		{
 			stateGame = State::Lose;
 		}
