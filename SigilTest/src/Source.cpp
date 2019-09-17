@@ -22,44 +22,44 @@ Vector2 ballPosition;
 Vector2 ballSpeed;
 Rectangle player1;
 Rectangle player2;
-const int screenWidth = 800;
-const int screenHeight = 400;
-const int minScreenWidth = 0;
-const int minscreenHeight = 0;
-const float speedInX = 5.0f;
-const float speedInY = 5.0f;
-const int initBallPosX = 400;
-const int initBallPosY = 260;
-const int ballRadius = 20;
-const int ballVertices = 100;
-const int initialPlayer1PosX = 20;
-const int initialPlayer1PosY = 260;
-const int initialPlayer2PosX = 780;
-const int initialPlayer2PosY = 260;
-const int player1Width = 10;
-const int player1Height = 100;
-const int player2Width = 10;
-const int player2Height = 100;
-int pointsP1 = 0;
-int pointsP2 = 0;
-int startPointsP1 = 0;
-int startPointsP2 = 0;
-int player1Wins;
-int player2Wins;
+const int screenWidth = 800;  //GlobalComponents
+const int screenHeight = 400;  //GlobalComponents
+const int minScreenWidth = 0;  //GlobalComponents
+const int minscreenHeight = 0;  //GlobalComponents
+const float speedInX = 5.0f;  //GlobalComponents
+const float speedInY = 5.0f;  //GlobalComponents
+const int initBallPosX = 400; //Ball
+const int initBallPosY = 260; //Ball
+const int ballRadius = 20;  //Ball
+const int ballVertices = 100;  //Ball
+const int initialPlayer1PosX = 20;  //Palette
+const int initialPlayer1PosY = 260; //Palette
+const int initialPlayer2PosX = 780; //Palette
+const int initialPlayer2PosY = 260; //Palette
+const int player1Width = 10;  //Palette
+const int player1Height = 100; //Palette
+const int player2Width = 10;  //Palette
+const int player2Height = 100; //Palette
+int pointsP1 = 0;  //GamePlay
+int pointsP2 = 0;  //GamePlay
+int startPointsP1 = 0;  //GamePlay
+int startPointsP2 = 0;  //GamePlay
+int player1Wins;  //GamePlay
+int player2Wins;  //GamePlay
 
 int winPoints = 5;
 
 State stateGame = State::StateMenu;
 
-void Menu();
-void InitializeGame();
-void Game();
-void FinalMenu();
+void Menu(); //Menu
+void InitializeGame();  //GamePlay
+void Game();  //GamePlay
+void FinalMenu();  //FinalMenu
 
 int main(int args, char *argv[])
 {
 	InitializeGame();
-	while (!slShouldClose() && !slGetKey(SL_KEY_ESCAPE) && true)
+	while (!slShouldClose() && !slGetKey(SL_KEY_ESCAPE) && true) //Game
 	{
 		if (stateGame == State::StateMenu)
 		{
