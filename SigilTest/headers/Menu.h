@@ -1,2 +1,2 @@
-//Declaracion de las funciones del main
+#include "sl.h"
 void Menu();

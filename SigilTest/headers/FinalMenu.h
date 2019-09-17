@@ -1,2 +1,2 @@
-//Declaracion de funciones del FinalMenu
+#include "sl.h"
 void FinalMenu();

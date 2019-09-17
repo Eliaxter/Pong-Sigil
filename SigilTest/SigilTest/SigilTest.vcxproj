@@ -19,12 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\filescode\Ball.cpp" />
     <ClCompile Include="..\filescode\FinalMenu.cpp" />
     <ClCompile Include="..\filescode\Game.cpp" />
     <ClCompile Include="..\filescode\Gameplay.cpp" />
+    <ClCompile Include="..\filescode\Initialize.cpp" />
     <ClCompile Include="..\filescode\Menu.cpp" />
-    <ClCompile Include="..\filescode\Palette.cpp" />
     <ClCompile Include="..\src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +32,7 @@
     <ClInclude Include="..\headers\Game.h" />
     <ClInclude Include="..\headers\Gameplay.h" />
     <ClInclude Include="..\headers\GlobalComponents.h" />
+    <ClInclude Include="..\headers\Initialize.h" />
     <ClInclude Include="..\headers\Menu.h" />
     <ClInclude Include="..\headers\Palette.h" />
   </ItemGroup>

@@ -15,9 +15,6 @@
     <ClCompile Include="..\src\Source.cpp">
       <Filter>Source Code</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Ball.cpp">
-      <Filter>FilesCode</Filter>
-    </ClCompile>
     <ClCompile Include="..\filescode\FinalMenu.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
@@ -30,7 +27,7 @@
     <ClCompile Include="..\filescode\Menu.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Palette.cpp">
+    <ClCompile Include="..\filescode\Initialize.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,6 +51,9 @@
       <Filter>HeaderCode</Filter>
     </ClInclude>
     <ClInclude Include="..\headers\GlobalComponents.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Initialize.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
   </ItemGroup>
