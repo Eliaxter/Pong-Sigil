@@ -4,10 +4,54 @@
     <Filter Include="Source Code">
       <UniqueIdentifier>{39a3beac-12fb-4dc3-8d52-14d163517c6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FilesCode">
+      <UniqueIdentifier>{75f5ff27-39a8-4962-bcdf-af00d6666ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderCode">
+      <UniqueIdentifier>{9ba5244a-d0ad-45f5-8590-3a6e7f530731}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Source.cpp">
       <Filter>Source Code</Filter>
     </ClCompile>
+    <ClCompile Include="..\filescode\Ball.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\FinalMenu.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\Game.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\Gameplay.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\Menu.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\Palette.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\headers\Ball.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\FinalMenu.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Game.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Gameplay.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Menu.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Palette.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
