@@ -53,5 +53,8 @@
     <ClInclude Include="..\headers\Palette.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
+    <ClInclude Include="..\headers\GlobalComponents.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

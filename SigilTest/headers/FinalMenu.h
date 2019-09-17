@@ -1,1 +1,2 @@
-#pragma once
+//Declaracion de funciones del FinalMenu
+void FinalMenu();

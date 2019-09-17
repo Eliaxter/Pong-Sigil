@@ -1,65 +1,15 @@
 ﻿#include "sl.h"
 #include <iostream>
-struct Vector2 
-{
-	float x;
-	float y;
-};
-struct Rectangle 
-{
-	float x;
-	float y;
-	int width;
-	int height;
-};
-enum State 
-{
-	StateMenu,
-	Playing,
-	Lose
-};
-Vector2 ballPosition;
-Vector2 ballSpeed;
-Rectangle player1;
-Rectangle player2;
-const int screenWidth = 800;  //GlobalComponents
-const int screenHeight = 400;  //GlobalComponents
-const int minScreenWidth = 0;  //GlobalComponents
-const int minscreenHeight = 0;  //GlobalComponents
-const float speedInX = 5.0f;  //GlobalComponents
-const float speedInY = 5.0f;  //GlobalComponents
-const int initBallPosX = 400; //Ball
-const int initBallPosY = 260; //Ball
-const int ballRadius = 20;  //Ball
-const int ballVertices = 100;  //Ball
-const int initialPlayer1PosX = 20;  //Palette
-const int initialPlayer1PosY = 260; //Palette
-const int initialPlayer2PosX = 780; //Palette
-const int initialPlayer2PosY = 260; //Palette
-const int player1Width = 10;  //Palette
-const int player1Height = 100; //Palette
-const int player2Width = 10;  //Palette
-const int player2Height = 100; //Palette
-int pointsP1 = 0;  //GamePlay
-int pointsP2 = 0;  //GamePlay
-int startPointsP1 = 0;  //GamePlay
-int startPointsP2 = 0;  //GamePlay
-int player1Wins;  //GamePlay
-int player2Wins;  //GamePlay
-
-int winPoints = 5;
-
-State stateGame = State::StateMenu;
-
-void Menu(); //Menu
-void InitializeGame();  //GamePlay
-void Game();  //GamePlay
-void FinalMenu();  //FinalMenu
+#include "../headers/GlobalComponents.h"
+#include "../headers/Ball.h"
+#include "../headers/Palette.h"
+#include "../headers/GamePlay.h"
+#include "../headers/Menu.h"
 
 int main(int args, char *argv[])
 {
 	InitializeGame();
-	while (!slShouldClose() && !slGetKey(SL_KEY_ESCAPE) && true) //Game
+	while (!slShouldClose() && !slGetKey(SL_KEY_ESCAPE) && true) //Game (loop)
 	{
 		if (stateGame == State::StateMenu)
 		{
@@ -78,34 +28,7 @@ int main(int args, char *argv[])
 	return 0;
 }
 
-void Menu()
-{
-	if (slGetKey(SL_KEY_ENTER))
-	{
-		stateGame = State::Playing;
-		pointsP1 = startPointsP1;
-		pointsP2 = startPointsP2;
-		player1.x = initialPlayer1PosX;
-		player1.y = initialPlayer1PosY;
-		player2.x = initialPlayer2PosX;
-		player2.y = initialPlayer2PosY;
-		ballPosition.x = initBallPosX;
-		ballPosition.y = initBallPosY;
-	}
-	if (slGetKey(SL_KEY_ESCAPE))
-	{
-		slShouldClose();
-	}
-	//slSetForeColor(0.1, 0.9, 0.2, 0.4);
-	slSetFontSize(20);
-	slSetForeColor(0.0, 3.0, 0.0, 1.0);
-	slText(screenWidth / 2, 300, "Pong Sigil");
-	slSetFontSize(20);
-	slText(screenWidth/2, screenHeight / 2, "Presiona Enter para jugar");
-	slSetFontSize(20);
-	slText(screenWidth / 2, 100, "Presiona Escape para salir");
-	slRender();
-}
+
 
 void Game()
 {

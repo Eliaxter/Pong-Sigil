@@ -32,6 +32,7 @@
     <ClInclude Include="..\headers\FinalMenu.h" />
     <ClInclude Include="..\headers\Game.h" />
     <ClInclude Include="..\headers\Gameplay.h" />
+    <ClInclude Include="..\headers\GlobalComponents.h" />
     <ClInclude Include="..\headers\Menu.h" />
     <ClInclude Include="..\headers\Palette.h" />
   </ItemGroup>

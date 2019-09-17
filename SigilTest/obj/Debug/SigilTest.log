@@ -1,3 +1,16 @@
-﻿  Source.cpp
-  LINK : no se encontró C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
-  SigilTest.vcxproj -> C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe
+﻿  Ball.cpp
+  FinalMenu.cpp
+  Game.cpp
+  Gameplay.cpp
+  Menu.cpp
+  Palette.cpp
+  Source.cpp
+  Generando código...
+Source.obj : error LNK2005: ya se defini¾ "int pointsP1" (?pointsP1@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int pointsP2" (?pointsP2@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int startPointsP1" (?startPointsP1@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int startPointsP2" (?startPointsP2@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int player1Wins" (?player1Wins@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int player2Wins" (?player2Wins@@3HA) en Gameplay.obj
+Source.obj : error LNK2005: ya se defini¾ "int winPoints" (?winPoints@@3HA) en Gameplay.obj
+C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe : fatal error LNK1169: se encontraron uno o mßs sÝmbolos definidos simultßneamente

@@ -1,1 +1,1 @@
-#pragma once
+//Game Loop (while)
