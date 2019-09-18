@@ -19,12 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\filescode\Ball.cpp" />
     <ClCompile Include="..\filescode\FinalMenu.cpp" />
     <ClCompile Include="..\filescode\Game.cpp" />
     <ClCompile Include="..\filescode\Gameplay.cpp" />
     <ClCompile Include="..\filescode\Initialize.cpp" />
     <ClCompile Include="..\filescode\Menu.cpp" />
+    <ClCompile Include="..\filescode\Palette.cpp" />
     <ClCompile Include="..\src\Source.cpp" />
+    <ClCompile Include="GlobalComponents.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\headers\Ball.h" />

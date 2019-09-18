@@ -30,6 +30,15 @@
     <ClCompile Include="..\filescode\Initialize.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
+    <ClCompile Include="..\filescode\Ball.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filescode\Palette.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalComponents.cpp">
+      <Filter>FilesCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\headers\Ball.h">

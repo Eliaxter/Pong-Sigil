@@ -1,6 +1,12 @@
 #include "sl.h"
 
-const int initBallPosX = 400;
-const int initBallPosY = 260;
-const int ballRadius = 20;
-const int ballVertices = 100;
+extern const int initBallPosX;
+extern const int initBallPosY;
+extern const int ballRadius;
+extern const int ballVertices;
+
+extern Vector2 ballPosition;
+extern Vector2 ballSpeed;
+
+void InitBall();
+void BallCollision();
