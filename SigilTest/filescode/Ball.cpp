@@ -1,4 +1,4 @@
-#include "../headers/Ball.h"
+#include "sl.h"
 #include "../headers/Game.h"
 
 const int initBallPosX = 400;

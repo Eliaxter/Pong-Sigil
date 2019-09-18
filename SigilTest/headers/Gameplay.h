@@ -1,10 +1,11 @@
+#pragma once
 #include "sl.h"
 
-int pointsP1 = 0;
-int pointsP2 = 0;
-int startPointsP1 = 0;
-int startPointsP2 = 0;
-int player1Wins;
-int player2Wins;  
-int winPoints = 5;
+extern int pointsP1;
+extern int pointsP2;
+extern int startPointsP1;
+extern int startPointsP2;
+extern int player1Wins;
+extern int player2Wins;  
+extern int winPoints;
 void Game();

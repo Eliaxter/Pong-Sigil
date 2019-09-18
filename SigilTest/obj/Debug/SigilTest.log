@@ -1,57 +1,13 @@
-﻿  Ball.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C2146: error de sintaxis: falta ';' delante del identificador 'ballPosition'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C2146: error de sintaxis: falta ';' delante del identificador 'ballSpeed'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\ball.cpp(19): error C2660: 'slCircleFill': la función no acepta 3 argumentos
-  c:\users\administrador\desktop\pong-sigil\sigiltest\lib\sigil-vc2015\include\sl.h(174): note: vea la declaración de 'slCircleFill'
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\ball.cpp(48): error C2065: 'pointsP1': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\ball.cpp(49): error C2065: 'player1Wins': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\ball.cpp(54): error C2065: 'pointsP2': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\ball.cpp(55): error C2065: 'player2Wins': identificador no declarado
-  FinalMenu.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C2146: error de sintaxis: falta ';' delante del identificador 'ballPosition'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C2146: error de sintaxis: falta ';' delante del identificador 'ballSpeed'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-  Game.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C2146: error de sintaxis: falta ';' delante del identificador 'ballPosition'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C2146: error de sintaxis: falta ';' delante del identificador 'ballSpeed'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-  Gameplay.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\gameplay.cpp : fatal error C1041: no puede abrir la base de datos de programa 'C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\obj\Debug\vc141.pdb'. Si varios CL.EXE escriben en el mismo archivo .PDB, use /FS.
-  Initialize.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C2146: error de sintaxis: falta ';' delante del identificador 'ballPosition'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C2146: error de sintaxis: falta ';' delante del identificador 'ballSpeed'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-  Menu.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(8): error C2146: error de sintaxis: falta ';' delante del identificador 'ballPosition'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\ball.h(9): error C2146: error de sintaxis: falta ';' delante del identificador 'ballSpeed'
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-  Palette.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\palette.cpp : fatal error C1041: no puede abrir la base de datos de programa 'C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\obj\Debug\vc141.pdb'. Si varios CL.EXE escriben en el mismo archivo .PDB, use /FS.
-  Source.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\src\source.cpp : fatal error C1041: no puede abrir la base de datos de programa 'C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\obj\Debug\vc141.idb'. Si varios CL.EXE escriben en el mismo archivo .PDB, use /FS.
-  GlobalComponents.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(7): warning C4091: 'extern ': se ha omitido a la izquierda de 'Vector2' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(14): warning C4091: 'extern ': se ha omitido a la izquierda de 'Rectangle' cuando no hay ninguna variable declarada
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\globalcomponents.h(20): warning C4091: 'extern ': se ha omitido a la izquierda de 'State' cuando no hay ninguna variable declarada
-  Generando código...
+﻿Ball.obj : error LNK2001: símbolo externo "struct Rectangle player1" (?player1@@3URectangle@@A) sin resolver
+Gameplay.obj : error LNK2001: símbolo externo "struct Rectangle player1" (?player1@@3URectangle@@A) sin resolver
+Menu.obj : error LNK2001: símbolo externo "struct Rectangle player1" (?player1@@3URectangle@@A) sin resolver
+Palette.obj : error LNK2001: símbolo externo "struct Rectangle player1" (?player1@@3URectangle@@A) sin resolver
+Ball.obj : error LNK2001: símbolo externo "struct Rectangle player2" (?player2@@3URectangle@@A) sin resolver
+Gameplay.obj : error LNK2001: símbolo externo "struct Rectangle player2" (?player2@@3URectangle@@A) sin resolver
+Menu.obj : error LNK2001: símbolo externo "struct Rectangle player2" (?player2@@3URectangle@@A) sin resolver
+Palette.obj : error LNK2001: símbolo externo "struct Rectangle player2" (?player2@@3URectangle@@A) sin resolver
+Ball.obj : error LNK2001: símbolo externo "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) sin resolver
+Gameplay.obj : error LNK2001: símbolo externo "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) sin resolver
+Menu.obj : error LNK2001: símbolo externo "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) sin resolver
+Ball.obj : error LNK2001: símbolo externo "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) sin resolver
+C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe : fatal error LNK1120: 4 externos sin resolver

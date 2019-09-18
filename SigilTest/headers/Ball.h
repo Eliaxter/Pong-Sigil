@@ -1,4 +1,6 @@
+#pragma once
 #include "sl.h"
+#include "GlobalComponents.h"
 
 extern const int initBallPosX;
 extern const int initBallPosY;

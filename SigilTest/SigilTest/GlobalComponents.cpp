@@ -1,12 +1,11 @@
 #include "sl.h"
-#include "../headers/GlobalComponents.h"
+#include "../headers/Game.h"
 
-Rectangle player1;
-Rectangle player2;
-const int screenWidth = 800;
-const int screenHeight = 400;
-const int minScreenWidth = 0;
-const int minscreenHeight = 0;
-const float speedInX = 5.0f;
-const float speedInY = 5.0f;
+ extern const int screenWidth = 800;
+ extern const int screenHeight = 400;
+ extern const int minScreenWidth = 0;
+ extern const int minscreenHeight = 0;
+ extern const float speedInX = 5.0f;
+ extern const float speedInY = 5.0f;
+
 State stateGame = State::StateMenu;

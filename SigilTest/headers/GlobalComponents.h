@@ -1,23 +1,25 @@
+#pragma once
 #include "sl.h"
 
-extern struct Vector2
+struct Vector2
 {
 	float x;
 	float y;
 };
-extern struct Rectangle
+struct Rectangle
 {
 	float x;
 	float y;
 	int width;
 	int height;
 };
-extern enum State
+enum State
 {
 	StateMenu,
 	Playing,
 	Lose
 };
+
 extern Rectangle player1;
 extern Rectangle player2;
 extern const int screenWidth;
