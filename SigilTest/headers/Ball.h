@@ -1,5 +1,4 @@
 #include "sl.h"
-#include "Game.h"
 
 const int initBallPosX = 400;
 const int initBallPosY = 260;

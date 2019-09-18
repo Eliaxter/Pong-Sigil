@@ -1,5 +1,5 @@
 #include "sl.h"
-#include "../headers/Menu.h"
+#include "../headers/Game.h"
 void Menu()
 {
 	if (slGetKey(SL_KEY_ENTER))

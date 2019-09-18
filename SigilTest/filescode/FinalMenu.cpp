@@ -1,4 +1,4 @@
-#include "../headers/FinalMenu.h"
+#include "../headers/Game.h"
 
 void FinalMenu()
 {

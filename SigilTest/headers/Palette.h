@@ -1,5 +1,4 @@
 #include "sl.h"
-#include "Game.h"
 
 const int initialPlayer1PosX = 20;
 const int initialPlayer1PosY = 260; 

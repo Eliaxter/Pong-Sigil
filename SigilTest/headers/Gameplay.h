@@ -1,5 +1,4 @@
 #include "sl.h"
-#include "Game.h"
 
 int pointsP1 = 0;
 int pointsP2 = 0;

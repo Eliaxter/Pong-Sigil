@@ -1,4 +1,4 @@
-#include "../headers/Initialize.h"
+#include "../headers/Game.h"
 
 void Initialize() 
 {

@@ -1,49 +1,69 @@
 ﻿  FinalMenu.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(7): error C2065: 'stateGame': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(7): error C2653: 'State': no es un nombre de clase o espacio de nombres
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(7): error C2065: 'StateMenu': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(11): error C2065: 'screenWidth': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(11): error C2065: 'screenHeight': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(11): error C2660: 'slText': la función no acepta 2 argumentos
-  c:\users\administrador\desktop\pong-sigil\sigiltest\lib\sigil-vc2015\include\sl.h(196): note: vea la declaración de 'slText'
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(12): error C2065: 'player1Wins': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(12): error C2065: 'player2Wins': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(15): error C2065: 'screenWidth': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(17): error C2065: 'player2Wins': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(17): error C2065: 'player1Wins': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\finalmenu.cpp(20): error C2065: 'screenWidth': identificador no declarado
   Game.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\palette.h(2): fatal error C1014: hay demasiados archivos de inclusión: nivel = 1024
   Gameplay.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\game.h(2): fatal error C1014: hay demasiados archivos de inclusión: nivel = 1024
   Initialize.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\game.h(2): fatal error C1014: hay demasiados archivos de inclusión: nivel = 1024
   Menu.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(7): error C2065: 'stateGame': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(7): error C2653: 'State': no es un nombre de clase o espacio de nombres
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(7): error C2065: 'Playing': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(8): error C2065: 'pointsP1': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(8): error C2065: 'startPointsP1': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(9): error C2065: 'pointsP2': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(9): error C2065: 'startPointsP2': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(10): error C2065: 'player1': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(10): error C2065: 'initialPlayer1PosX': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(11): error C2065: 'player1': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(11): error C2065: 'initialPlayer1PosY': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(12): error C2065: 'player2': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(12): error C2065: 'initialPlayer2PosX': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(13): error C2065: 'player2': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(13): error C2065: 'initialPlayer2PosY': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(14): error C2065: 'ballPosition': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(14): error C2065: 'initBallPosX': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(15): error C2065: 'ballPosition': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(15): error C2065: 'initBallPosY': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(24): error C2065: 'screenWidth': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(26): error C2065: 'screenWidth': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(26): error C2065: 'screenHeight': identificador no declarado
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(26): error C2660: 'slText': la función no acepta 2 argumentos
-  c:\users\administrador\desktop\pong-sigil\sigiltest\lib\sigil-vc2015\include\sl.h(196): note: vea la declaración de 'slText'
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(28): error C2065: 'screenWidth': identificador no declarado
   Source.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\headers\palette.h(2): fatal error C1014: hay demasiados archivos de inclusión: nivel = 1024
+c:\users\usuario\desktop\pong-sigil\sigiltest\src\source.cpp(4): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
   Generando código...
+Game.obj : error LNK2005: ya se definió "int pointsP1" (?pointsP1@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int pointsP2" (?pointsP2@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int startPointsP1" (?startPointsP1@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int startPointsP2" (?startPointsP2@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int player1Wins" (?player1Wins@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int player2Wins" (?player2Wins@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "int winPoints" (?winPoints@@3HA) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "struct Rectangle player1" (?player1@@3URectangle@@A) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "struct Rectangle player2" (?player2@@3URectangle@@A) en FinalMenu.obj
+Game.obj : error LNK2005: ya se definió "enum State stateGame" (?stateGame@@3W4State@@A) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int pointsP1" (?pointsP1@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int pointsP2" (?pointsP2@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int startPointsP1" (?startPointsP1@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int startPointsP2" (?startPointsP2@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int player1Wins" (?player1Wins@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int player2Wins" (?player2Wins@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "int winPoints" (?winPoints@@3HA) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "struct Rectangle player1" (?player1@@3URectangle@@A) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "struct Rectangle player2" (?player2@@3URectangle@@A) en FinalMenu.obj
+Gameplay.obj : error LNK2005: ya se definió "enum State stateGame" (?stateGame@@3W4State@@A) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int pointsP1" (?pointsP1@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int pointsP2" (?pointsP2@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int startPointsP1" (?startPointsP1@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int startPointsP2" (?startPointsP2@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int player1Wins" (?player1Wins@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int player2Wins" (?player2Wins@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "int winPoints" (?winPoints@@3HA) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "struct Rectangle player1" (?player1@@3URectangle@@A) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "struct Rectangle player2" (?player2@@3URectangle@@A) en FinalMenu.obj
+Initialize.obj : error LNK2005: ya se definió "enum State stateGame" (?stateGame@@3W4State@@A) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int pointsP1" (?pointsP1@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int pointsP2" (?pointsP2@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int startPointsP1" (?startPointsP1@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int startPointsP2" (?startPointsP2@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int player1Wins" (?player1Wins@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int player2Wins" (?player2Wins@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "int winPoints" (?winPoints@@3HA) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "struct Rectangle player1" (?player1@@3URectangle@@A) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "struct Rectangle player2" (?player2@@3URectangle@@A) en FinalMenu.obj
+Menu.obj : error LNK2005: ya se definió "enum State stateGame" (?stateGame@@3W4State@@A) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int pointsP1" (?pointsP1@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int pointsP2" (?pointsP2@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int startPointsP1" (?startPointsP1@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int startPointsP2" (?startPointsP2@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int player1Wins" (?player1Wins@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int player2Wins" (?player2Wins@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "int winPoints" (?winPoints@@3HA) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "struct Vector2 ballPosition" (?ballPosition@@3UVector2@@A) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "struct Vector2 ballSpeed" (?ballSpeed@@3UVector2@@A) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "struct Rectangle player1" (?player1@@3URectangle@@A) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "struct Rectangle player2" (?player2@@3URectangle@@A) en FinalMenu.obj
+Source.obj : error LNK2005: ya se definió "enum State stateGame" (?stateGame@@3W4State@@A) en FinalMenu.obj
+C:\Users\Usuario\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
