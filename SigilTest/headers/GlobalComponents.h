@@ -26,6 +26,4 @@ extern const int screenWidth;
 extern const int screenHeight;
 extern const int minScreenWidth;
 extern const int minscreenHeight;
-extern const float speedInX;
-extern const float speedInY;
 extern State stateGame;

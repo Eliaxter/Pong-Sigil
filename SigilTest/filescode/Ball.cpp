@@ -5,18 +5,19 @@ const int initBallPosX = 400;
 const int initBallPosY = 260;
 const int ballRadius = 20;
 const int ballVertices = 100;
+const float speedInX = 7.0f;
+const float speedInY = 7.0f;
+Vector2 ballPosition;
+Vector2 ballSpeed;
 
 void InitBall() 
 {
 	ballPosition.x -= ballSpeed.x;
 	ballPosition.y += ballSpeed.y;
 
-	ballPosition.x = initBallPosX;
-	ballPosition.y = initBallPosY;
-
 	ballSpeed.x = speedInX;
 	ballSpeed.y = speedInY;
-	slCircleFill(ballPosition.x, ballPosition.y, ballRadius, ballVertices);
+	slCircleFill(initBallPosX, initBallPosY, ballRadius, ballVertices);
 }
 
 void BallCollision()
