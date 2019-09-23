@@ -12,12 +12,8 @@ Vector2 ballSpeed;
 
 void InitBall() 
 {
-	ballPosition.x -= ballSpeed.x;
-	ballPosition.y += ballSpeed.y;
-
 	ballSpeed.x = speedInX;
 	ballSpeed.y = speedInY;
-	slCircleFill(initBallPosX, initBallPosY, ballRadius, ballVertices);
 }
 
 void BallCollision()

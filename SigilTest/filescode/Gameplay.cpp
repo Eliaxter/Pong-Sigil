@@ -14,7 +14,8 @@ void Game() //Gameplay
 	// background glow
 	slSetForeColor(0.1, 0.9, 0.2, 0.4);
 
-	Initialize();
+	ballPosition.x -= ballSpeed.x;
+	ballPosition.y += ballSpeed.y;
 
 	if (slGetKey('W') && player1.y <= screenHeight - player1.height / 2) player1.y += 5.0f;
 	if (slGetKey('S') && player1.y >= 0 + player1.height / 2) player1.y -= 5.0f;

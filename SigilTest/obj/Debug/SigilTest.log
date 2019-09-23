@@ -10,6 +10,7 @@ c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(13): warn
 c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(14): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
 c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(15): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
 c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+  Palette.cpp
   Source.cpp
 c:\users\administrador\desktop\pong-sigil\sigiltest\src\source.cpp(4): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
   GlobalComponents.cpp
