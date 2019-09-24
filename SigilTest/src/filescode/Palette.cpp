@@ -1,6 +1,10 @@
 #include "../headers/Palette.h"
 
 #include "../headers/Rectangles.h"
+#include "../headers/Ball.h"
+#include "../headers/GlobalComponents.h"
+#include "../headers/Vectors.h"
+#include "../headers/Gameplay.h"
 
 const int initialPlayer1PosX = 20;
 const int initialPlayer1PosY = 260;
@@ -22,4 +26,20 @@ void InitPlayers()
 	player2.y = initialPlayer2PosY;
 	player2.width = player2Width;
 	player2.height = player2Height;
+}
+
+void PlayerGetPoints() 
+{
+	if (ballPosition.x > screenWidth)
+	{
+		ballPosition.x = initBallPosX;
+		pointsP1++;
+		player1Wins++;
+	}
+	if (ballPosition.x < minScreenWidth)
+	{
+		ballPosition.x = initBallPosX;
+		pointsP2++;
+		player2Wins++;
+	}
 }

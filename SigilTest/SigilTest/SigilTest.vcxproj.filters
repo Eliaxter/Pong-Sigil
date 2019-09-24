@@ -15,60 +15,60 @@
     <ClCompile Include="..\src\Source.cpp">
       <Filter>Source Code</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\FinalMenu.cpp">
+    <ClCompile Include="..\src\filescode\Ball.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Game.cpp">
+    <ClCompile Include="..\src\filescode\FinalMenu.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Gameplay.cpp">
+    <ClCompile Include="..\src\filescode\Game.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Menu.cpp">
+    <ClCompile Include="..\src\filescode\Gameplay.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Initialize.cpp">
+    <ClCompile Include="..\src\filescode\Initialize.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Ball.cpp">
+    <ClCompile Include="..\src\filescode\Menu.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="..\filescode\Palette.cpp">
+    <ClCompile Include="..\src\filescode\Palette.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
-    <ClCompile Include="GlobalComponents.cpp">
+    <ClCompile Include="..\src\filescode\GlobalComponents.cpp">
       <Filter>FilesCode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\headers\Ball.h">
+    <ClInclude Include="..\src\headers\Ball.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\FinalMenu.h">
+    <ClInclude Include="..\src\headers\FinalMenu.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Game.h">
+    <ClInclude Include="..\src\headers\Game.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Gameplay.h">
+    <ClInclude Include="..\src\headers\Gameplay.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Menu.h">
+    <ClInclude Include="..\src\headers\GlobalComponents.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Palette.h">
+    <ClInclude Include="..\src\headers\Initialize.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\GlobalComponents.h">
+    <ClInclude Include="..\src\headers\Menu.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Initialize.h">
+    <ClInclude Include="..\src\headers\Palette.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Rectangles.h">
+    <ClInclude Include="..\src\headers\Rectangles.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
-    <ClInclude Include="..\headers\Vectors.h">
+    <ClInclude Include="..\src\headers\Vectors.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
   </ItemGroup>

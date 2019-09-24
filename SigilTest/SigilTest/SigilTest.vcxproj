@@ -19,27 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\filescode\Ball.cpp" />
-    <ClCompile Include="..\filescode\FinalMenu.cpp" />
-    <ClCompile Include="..\filescode\Game.cpp" />
-    <ClCompile Include="..\filescode\Gameplay.cpp" />
-    <ClCompile Include="..\filescode\Initialize.cpp" />
-    <ClCompile Include="..\filescode\Menu.cpp" />
-    <ClCompile Include="..\filescode\Palette.cpp" />
+    <ClCompile Include="..\src\filescode\Ball.cpp" />
+    <ClCompile Include="..\src\filescode\FinalMenu.cpp" />
+    <ClCompile Include="..\src\filescode\Game.cpp" />
+    <ClCompile Include="..\src\filescode\Gameplay.cpp" />
+    <ClCompile Include="..\src\filescode\GlobalComponents.cpp" />
+    <ClCompile Include="..\src\filescode\Initialize.cpp" />
+    <ClCompile Include="..\src\filescode\Menu.cpp" />
+    <ClCompile Include="..\src\filescode\Palette.cpp" />
     <ClCompile Include="..\src\Source.cpp" />
-    <ClCompile Include="GlobalComponents.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\headers\Ball.h" />
-    <ClInclude Include="..\headers\FinalMenu.h" />
-    <ClInclude Include="..\headers\Game.h" />
-    <ClInclude Include="..\headers\Gameplay.h" />
-    <ClInclude Include="..\headers\GlobalComponents.h" />
-    <ClInclude Include="..\headers\Initialize.h" />
-    <ClInclude Include="..\headers\Menu.h" />
-    <ClInclude Include="..\headers\Palette.h" />
-    <ClInclude Include="..\headers\Rectangles.h" />
-    <ClInclude Include="..\headers\Vectors.h" />
+    <ClInclude Include="..\src\headers\Ball.h" />
+    <ClInclude Include="..\src\headers\FinalMenu.h" />
+    <ClInclude Include="..\src\headers\Game.h" />
+    <ClInclude Include="..\src\headers\Gameplay.h" />
+    <ClInclude Include="..\src\headers\GlobalComponents.h" />
+    <ClInclude Include="..\src\headers\Initialize.h" />
+    <ClInclude Include="..\src\headers\Menu.h" />
+    <ClInclude Include="..\src\headers\Palette.h" />
+    <ClInclude Include="..\src\headers\Rectangles.h" />
+    <ClInclude Include="..\src\headers\Vectors.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -10,3 +10,4 @@ extern const int player2Width;
 extern const int player2Height;
 
 void InitPlayers();
+void PlayerGetPoints();

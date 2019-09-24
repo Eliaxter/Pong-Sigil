@@ -7,6 +7,7 @@
 #include "../headers/Game.h"
 #include "../headers/GlobalComponents.h"
 #include "../headers/Ball.h"
+#include "../headers/Palette.h"
 
 int pointsP1 = 0;
 int pointsP2 = 0;
@@ -37,6 +38,8 @@ void Game() //Gameplay
 	slCircleFill(ballPosition.x, ballPosition.y, ballRadius, ballVertices);
 
 	BallCollision();
+
+	PlayerGetPoints();
 
 	if (pointsP1 >= winPoints || pointsP2 >= winPoints)
 	{
