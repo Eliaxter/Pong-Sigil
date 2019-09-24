@@ -27,7 +27,7 @@
     <ClCompile Include="..\src\filescode\Initialize.cpp" />
     <ClCompile Include="..\src\filescode\Menu.cpp" />
     <ClCompile Include="..\src\filescode\Palette.cpp" />
-    <ClCompile Include="..\src\Source.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\headers\Ball.h" />
