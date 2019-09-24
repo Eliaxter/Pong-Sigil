@@ -1,5 +1,10 @@
+#include "../headers/FinalMenu.h"
+
 #include "sl.h"
+
 #include "../headers/Game.h"
+#include "../headers/GlobalComponents.h"
+#include "../headers/Gameplay.h"
 
 void FinalMenu()
 {

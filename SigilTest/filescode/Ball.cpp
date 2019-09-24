@@ -1,5 +1,11 @@
+#include "../headers/Ball.h"
+
 #include "sl.h"
-#include "../headers/Game.h"
+
+#include "../headers/Vectors.h"
+#include "../headers/Rectangles.h"
+#include "../headers/GlobalComponents.h"
+#include "../headers/Gameplay.h"
 
 const int initBallPosX = 400;
 const int initBallPosY = 260;
@@ -7,8 +13,6 @@ const int ballRadius = 20;
 const int ballVertices = 100;
 const float speedInX = 7.0f;
 const float speedInY = 7.0f;
-Vector2 ballPosition;
-Vector2 ballSpeed;
 
 void InitBall() 
 {

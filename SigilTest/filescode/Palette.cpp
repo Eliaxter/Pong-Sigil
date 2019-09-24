@@ -1,5 +1,6 @@
-#include "sl.h"
-#include "../headers/Game.h"
+#include "../headers/Palette.h"
+
+#include "../headers/Rectangles.h"
 
 const int initialPlayer1PosX = 20;
 const int initialPlayer1PosY = 260;

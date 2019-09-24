@@ -1,5 +1,20 @@
+#include "../headers/Menu.h"
+
 #include "sl.h"
+
+#include "../headers/Ball.h"
+#include "../headers/Palette.h"
 #include "../headers/Game.h"
+#include "../headers/Gameplay.h"
+#include "../headers/Rectangles.h"
+#include "../headers/Vectors.h"
+#include "../headers/GlobalComponents.h"
+
+Vector2 ballPosition;
+Vector2 ballSpeed;
+
+Rectangle player1;
+Rectangle player2;
 
 void Menu()
 {

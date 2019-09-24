@@ -38,6 +38,8 @@
     <ClInclude Include="..\headers\Initialize.h" />
     <ClInclude Include="..\headers\Menu.h" />
     <ClInclude Include="..\headers\Palette.h" />
+    <ClInclude Include="..\headers\Rectangles.h" />
+    <ClInclude Include="..\headers\Vectors.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

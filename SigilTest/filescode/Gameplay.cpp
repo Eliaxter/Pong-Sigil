@@ -1,5 +1,12 @@
+#include "../headers/Gameplay.h"
+
 #include "sl.h"
+
+#include "../headers/Vectors.h"
+#include "../headers/Rectangles.h"
 #include "../headers/Game.h"
+#include "../headers/GlobalComponents.h"
+#include "../headers/Ball.h"
 
 int pointsP1 = 0;
 int pointsP2 = 0;

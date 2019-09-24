@@ -1,5 +1,4 @@
 #pragma once
-#include "sl.h"
 
 extern const int initialPlayer1PosX;
 extern const int initialPlayer1PosY; 

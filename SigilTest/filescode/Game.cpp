@@ -1,5 +1,13 @@
-#include "sl.h"
 #include "../headers/Game.h"
+
+#include "sl.h"
+
+#include "../headers/Initialize.h"
+#include "../headers/Menu.h"
+#include "../headers/Gameplay.h"
+#include "../headers/FinalMenu.h"
+
+State stateGame = State::StateMenu;
 
 void GameLoop() 
 {

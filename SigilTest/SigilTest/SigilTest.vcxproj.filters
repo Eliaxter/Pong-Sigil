@@ -65,5 +65,11 @@
     <ClInclude Include="..\headers\Initialize.h">
       <Filter>HeaderCode</Filter>
     </ClInclude>
+    <ClInclude Include="..\headers\Rectangles.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\headers\Vectors.h">
+      <Filter>HeaderCode</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

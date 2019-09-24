@@ -1,5 +1,10 @@
+#include "../headers/Initialize.h"
+
 #include "sl.h"
-#include "../headers/Game.h"
+
+#include "../headers/GlobalComponents.h"
+#include "../headers/Ball.h"
+#include "../headers/Palette.h"
 
 void Initialize()
 {

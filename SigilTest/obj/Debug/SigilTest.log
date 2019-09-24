@@ -1,18 +1,8 @@
-﻿  Ball.cpp
-  FinalMenu.cpp
-  Game.cpp
-  Gameplay.cpp
-  Initialize.cpp
-  Menu.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(11): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(12): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(13): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(14): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(15): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(16): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
-  Palette.cpp
-  Source.cpp
-c:\users\administrador\desktop\pong-sigil\sigiltest\src\source.cpp(4): warning C4326: el tipo de valor devuelto de 'main' debe ser 'int' en lugar de 'void'
-  GlobalComponents.cpp
-  Generando código...
+﻿  Menu.cpp
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(26): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(27): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(28): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(29): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(30): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
+c:\users\administrador\desktop\pong-sigil\sigiltest\filescode\menu.cpp(31): warning C4244: '=': conversión de 'const int' a 'float'; posible pérdida de datos
   SigilTest.vcxproj -> C:\Users\Administrador\Desktop\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe
