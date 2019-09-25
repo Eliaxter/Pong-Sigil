@@ -17,9 +17,8 @@ int player1Wins;
 int player2Wins;
 int winPoints = 5;
 
-void Game() //Gameplay
+void Game()
 {
-	// background glow
 	slSetForeColor(0.1, 0.9, 0.2, 0.4);
 
 	ballPosition.x -= ballSpeed.x;
@@ -31,7 +30,6 @@ void Game() //Gameplay
 	if (slGetKey(SL_KEY_DOWN) && player2.y >= 0 + player2.height / 2) player2.y -= 5.0f;
 	//ballPosition.y = player2.y;
 
-	// large text and fat line
 	slRectangleFill(player1.x, player1.y, player1.width, player1.height);
 	slRectangleFill(player2.x, player2.y, player2.width, player2.height);
 
@@ -48,7 +46,6 @@ void Game() //Gameplay
 
 	slSetBackColor(0, 0, 0);
 
-	// smaller subtext
 	slSetFontSize(14);
 
 	slRender();

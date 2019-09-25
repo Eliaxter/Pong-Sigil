@@ -31,7 +31,6 @@ void Menu()
 		ballPosition.y = initBallPosY;
 	}
 
-	//slSetForeColor(0.1, 0.9, 0.2, 0.4);
 	slSetFontSize(20);
 	slSetForeColor(0.0, 3.0, 0.0, 1.0);
 	slText(screenWidth / 2, 300, "Pong Sigil");

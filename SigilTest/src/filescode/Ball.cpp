@@ -13,6 +13,7 @@ const int ballRadius = 20;
 const int ballVertices = 100;
 const float speedInX = 7.0f;
 const float speedInY = 7.0f;
+float negativeSpeed = -1.0f;
 
 void InitBall() 
 {
@@ -24,7 +25,7 @@ void BallCollision()
 {
 	if ((ballPosition.y >= (screenHeight - ballRadius)) || (ballPosition.y <= ballRadius))
 	{
-		ballSpeed.y *= -1.0f;
+		ballSpeed.y *= negativeSpeed;
 	}
 
 	if ((ballPosition.x - ballRadius) <= (player1.x + player1.width / 2) &&
@@ -32,7 +33,7 @@ void BallCollision()
 		(ballPosition.y + ballRadius) >= (player1.y - player1.height / 2) &&
 		(ballPosition.y - ballRadius) <= (player1.y + player1.height / 2))
 	{
-		ballSpeed.x *= -1.0f;
+		ballSpeed.x *= negativeSpeed;
 	}
 
 	if ((ballPosition.x - ballRadius) <= (player2.x + player2.width / 2) &&
@@ -40,7 +41,7 @@ void BallCollision()
 		(ballPosition.y + ballRadius) >= (player2.y - player2.height / 2) &&
 		(ballPosition.y - ballRadius) <= (player2.y + player2.height / 2))
 	{
-		ballSpeed.x *= -1.0f;
+		ballSpeed.x *= negativeSpeed;
 	}
 
 	if (ballPosition.x > screenWidth)
