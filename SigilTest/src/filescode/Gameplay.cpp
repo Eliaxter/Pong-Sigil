@@ -35,6 +35,9 @@ void Game()
 
 	slCircleFill(ballPosition.x, ballPosition.y, ballRadius, ballVertices);
 
+	slCircleFill(powerBallPosition.x, powerBallPosition.y, powerBallRadius, powerBallVertices);
+
+
 	BallCollision();
 
 	PlayerGetPoints();
@@ -45,8 +48,6 @@ void Game()
 	}
 
 	slSetBackColor(0, 0, 0);
-
-	slSetFontSize(14);
 
 	slRender();
 }

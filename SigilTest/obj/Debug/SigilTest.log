@@ -1,1 +1,6 @@
-﻿  SigilTest.vcxproj -> C:\Users\Usuario\Desktop\ImageCampus\Cuatrimestre 2\PP1 Desarrollo de VJ 1\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe
+﻿  Ball.cpp
+c:\users\usuario\desktop\imagecampus\cuatrimestre 2\pp1 desarrollo de vj 1\pong-sigil\sigiltest\src\filescode\ball.cpp(15): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\usuario\desktop\imagecampus\cuatrimestre 2\pp1 desarrollo de vj 1\pong-sigil\sigiltest\src\filescode\ball.cpp(15): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+c:\users\usuario\desktop\imagecampus\cuatrimestre 2\pp1 desarrollo de vj 1\pong-sigil\sigiltest\src\filescode\ball.cpp(16): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\usuario\desktop\imagecampus\cuatrimestre 2\pp1 desarrollo de vj 1\pong-sigil\sigiltest\src\filescode\ball.cpp(16): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+  SigilTest.vcxproj -> C:\Users\Usuario\Desktop\ImageCampus\Cuatrimestre 2\PP1 Desarrollo de VJ 1\Pong-Sigil\SigilTest\bin\Debug\SigilTest.exe

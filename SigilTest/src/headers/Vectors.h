@@ -8,3 +8,4 @@ struct Vector2
 
 extern Vector2 ballPosition;
 extern Vector2 ballSpeed;
+extern Vector2 powerBallPosition;

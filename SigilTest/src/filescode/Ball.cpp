@@ -2,23 +2,38 @@
 
 #include "sl.h"
 
+#include <iostream>
+#include <time.h>
+
 #include "../headers/Vectors.h"
 #include "../headers/Rectangles.h"
 #include "../headers/GlobalComponents.h"
 #include "../headers/Gameplay.h"
 
-const int initBallPosX = 400;
-const int initBallPosY = 260;
+const float initBallPosX = 400.0f;
+const float initBallPosY = 260.0f;
+const float initPowerBallX = rand() % 200 + 400;
+const float initPowerBallY = rand() % 160 + 260;
 const int ballRadius = 20;
+const int powerBallRadius = 10;
 const int ballVertices = 100;
+const int powerBallVertices = 100;
 const float speedInX = 7.0f;
 const float speedInY = 7.0f;
 float negativeSpeed = -1.0f;
+
+Vector2 powerBallPosition;
 
 void InitBall() 
 {
 	ballSpeed.x = speedInX;
 	ballSpeed.y = speedInY;
+}
+
+void InitPowerBall() 
+{
+	powerBallPosition.x = initPowerBallX;
+	powerBallPosition.y = initPowerBallY;
 }
 
 void BallCollision()
@@ -42,18 +57,5 @@ void BallCollision()
 		(ballPosition.y - ballRadius) <= (player2.y + player2.height / 2))
 	{
 		ballSpeed.x *= negativeSpeed;
-	}
-
-	if (ballPosition.x > screenWidth)
-	{
-		ballPosition.x = initBallPosX;
-		pointsP1++;
-		player1Wins++;
-	}
-	if (ballPosition.x < minScreenWidth)
-	{
-		ballPosition.x = initBallPosX;
-		pointsP2++;
-		player2Wins++;
 	}
 }
